@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #FF5959;
+    --secondary-color: #707070;
+    --light-color: #fff;
+    --dark-color: #000;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--dark-color);
+    margin-top: 130px;
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.primary-btn {
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 16px 12px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+/* header styles  */
+header {
+    background-image: url('../images/donation6.jpg');
+    background-color: rgb(97, 96, 96);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    color: black;
+}
+
+
+header div {
+    z-index: 100;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--light-color);
+    max-width: 830px;
+    line-height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    max-width: 700px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--light-color);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28px;
+}
