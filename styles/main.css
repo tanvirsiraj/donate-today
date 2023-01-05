@@ -227,3 +227,55 @@ header div {
     width: 100%;
     border-radius: 5px;
 }
+
+/* updates styles  */
+.updates .section-description {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.updates {
+    padding: 0 120px;
+}
+
+.updates .section-description {
+    margin-bottom: 50px;
+}
+
+.subscription-area {
+    background: #FFF4D6;
+    padding: 70px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-area input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.subscription-area input {
+    padding: 14px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--secondary-color);
+    background-color: #D9D9D9;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.subscription-area button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
