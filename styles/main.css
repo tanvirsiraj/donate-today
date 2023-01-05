@@ -90,6 +90,10 @@ header div {
 }
 
 /* donate today styles  */
+.donate-today {
+    padding: 0 80px;
+}
+
 .donate-today .section-description {
     max-width: 700px;
     margin-left: auto;
@@ -140,4 +144,58 @@ header div {
 
 .donate-today-btn {
     text-align: center;
+}
+
+/* donate plan section styles */
+.donate-plan {
+    /* background-color: red; */
+}
+
+.donate-plan .section-description {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-plan-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.donate-plan-segment {
+    padding: 63px 23px;
+    border-radius: 5px;
+}
+
+.donate-plan-segment:nth-child(1) {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan-segment:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.donate-plan-segment:nth-child(3) {
+    background: #FFF4D6;
+}
+
+.donate-plan-icon {
+    margin-bottom: 30px;
+}
+
+.donate-plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    /* line-height: 36px; */
+    color: var(--dark-color);
+    margin-bottom: 16px;
+}
+
+.donate-plan-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
 }
