@@ -298,10 +298,193 @@ footer {
     font-size: 36px;
     letter-spacing: 0.5px;
     color: #FF5959;
+    margin-bottom: 24px;
 }
 
 .footer-sub-title {
     font-size: 14px;
     color: #D9DBE1;
     font-family: 'Manrope', sans-serif;
+}
+
+/* mobile devices  */
+@media screen and (max-width: 576px) {
+    section {
+        padding-inline: 10px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .header-title {
+        font-size: 30px;
+        max-width: 350px;
+        line-height: 40px;
+    }
+
+    .header-description {
+        max-width: 350px;
+        font-size: 14px;
+        margin-bottom: 60px;
+        line-height: 18px;
+    }
+
+    /* donate today  */
+    .donate-today {
+        padding-inline: 10px;
+    }
+
+    .donate-today-amount-container {
+        flex-direction: column-reverse;
+        gap: 15px;
+        margin-block: 30px;
+    }
+
+    .donate-today .section-description {
+        max-width: 350px;
+        font-size: 16px;
+    }
+
+    .donate-today-amount-container h3 {
+        font-size: 26px;
+        padding: 12px 35px;
+    }
+
+    /* donate plan  */
+
+    .donate-plan .section-description {
+        max-width: 350px;
+        font-size: 14px;
+    }
+
+    .donate-plan-container {
+        flex-direction: column;
+    }
+
+    /* depend on  */
+    .depend-on {
+        margin-top: 100px;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .depend-on:last-child {
+        flex-direction: column;
+    }
+
+    .depend-on .section-title {
+        margin-top: 0;
+        line-height: 35px;
+    }
+
+    .depend-on .primary-btn {
+        padding: 10px 15px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    /* updates section  */
+    .updates {
+        padding-inline: 0;
+    }
+
+    .updates .section-description {
+        max-width: 350px;
+        font-size: 16px;
+    }
+
+    .subscription-area {
+        padding: 50px 0px;
+    }
+
+    .subscription-area input,
+    .subscription-area button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: 60px;
+        margin-bottom: -25px;
+    }
+}
+
+/* tablet  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    section {
+        padding-inline: 20px;
+    }
+
+    .section-title {
+        margin-top: 100px;
+        font-size: 45px;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .header-description {
+        margin-bottom: 80px;
+    }
+
+    /* donate today  */
+
+
+    .donate-today-amount-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-block: 50px;
+    }
+
+    .donate-today-amount-container h3 {
+        font-size: 28px;
+        padding: 10px 20px;
+    }
+
+    /* donate plan  */
+
+    .donate-plan-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* depend on  */
+    .depend-on {
+        margin-top: 100px;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .depend-on:last-child {
+        flex-direction: column;
+    }
+
+    .depend-on .section-title {
+        line-height: 55px;
+    }
+
+    .depend-on .primary-btn {
+        padding: 10px 15px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 60px;
+        margin-bottom: -25px;
+    }
+}
+
+.hide {
+    display: none;
 }
